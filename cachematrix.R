@@ -10,13 +10,13 @@ makeCacheMatrix <- function(x = matrix()) {
         #Set the inverse to null
         i <- NULL
         
-        #Create a function to set a matrix to x
+        #Function to set a matrix to x
         set <- function(y){
             x <<- y
             i <<- NULL
         }
         
-        #Create a function to get the matrix x
+        #Function to get the matrix x
         get <- function(){
                 #return
                 x
